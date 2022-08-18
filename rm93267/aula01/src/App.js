@@ -1,9 +1,14 @@
 import React from 'react'
+import Cabecalho from './components/cabecalho/Cabecalho';
+import Carros from './components/carros/Carros'
+import Parceiros from './components/parceiros/Parceiros '
 
 export default function App() {
   return (
     <>
-      <h1>Olá Mundo</h1>
+      <Cabecalho/>
+      <Carros/>
+      <Parceiros/>
     </>
   );
 }
